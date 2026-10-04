@@ -90,15 +90,17 @@
     padding-top: 10px;
   }
 
-  .header-menu-list {
-    column-gap: 24px;
-  }
-
   .header-menu-link {
     height: 32px;
   }
 
   .header-actions {
     column-gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-menu-list {
+    column-gap: 22px;
   }
 }
