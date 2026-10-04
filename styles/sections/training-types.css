@@ -1,7 +1,6 @@
 .training-types {
   position: relative;
-  padding-top: 70px;
-  padding-bottom: 120px;
+  padding: 70px var(--container-padding-x) 120px;
   background-color: var(--color-dark);
 }
 
@@ -29,4 +28,27 @@
 
 .training-types-item-title {
   font-size: 16px;
+}
+
+@media (max-width: 1280px) {
+  .training-types-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .training-types-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+
+  .training-types-item {
+    --trainingTypesItemBgIconSize: 50px;
+
+    row-gap: 10px;
+  }
+
+  .training-types-image {
+    max-width: 120px;
+  }
 }
