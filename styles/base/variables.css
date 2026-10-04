@@ -18,4 +18,18 @@
   --container-padding-x: 15px;
 
   --transition-duration: 0.2s;
+
+  --header-height: 90px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --header-height: 120px;
+  }
+}
+
+@media (max-width: 767px) {
+  :root {
+    --header-height: 92px;
+  }
 }
