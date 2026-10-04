@@ -8,6 +8,7 @@
 @import 'components/input.css';
 
 @import 'layouts/header.css';
+@import 'layouts/footer.css';
 
 @import 'sections/banner.css';
 @import 'sections/motivation.css';
